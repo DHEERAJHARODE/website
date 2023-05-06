@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    body{
+      background-image: url(https://petapixel.com/assets/uploads/2018/08/cinematic-step4-800x534.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 2;
+      width: 100%;
+    }
+    label{
+      font-weight: bold;
+      color: white;
+      letter-spacing: 2px;
+    }      
+    div{
+      box-shadow: -3px 4px 19px black;
+      box-sizing: border-box;
+      padding: 20px;
+      backdrop-filter: blur(5px);
+    }
+    .form{
+      width: 250px;
+      height: 270px;
+      background-color: transparent;
+      border-radius: 7px;
+      margin: 50px auto 0;
+      position: relative;
+      top: 70px;
+    }
+    a{
+      text-decoration: none;
+      background-color: black;
+      color: grey;
+      opacity: 0.9;
+    }
+    button.Login{
+      position: relative;
+      top: 40px;
+      left: 103px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 2px;
+      border: 2px solid black;
+      font-weight: bold;
+      background-color: black;
+      color: grey;
+      opacity: 0.9;
+    }
+    button.Signup{
+      position: relative;
+      top: 40px;
+      right: 97px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 2px;
+      border: 2px solid black;
+      font-weight: bold;
+      background-color: black;
+      color: grey;
+      opacity: 0.9;
+    }
+    input{
+      border-radius: 4px;
+      border: 2px solid black;
+      letter-spacing: 2px;
+      background-color: black;
+      opacity: 0.7;
+      height:25px;
+      width: 350px;
+      color: white;
+    }
+    i{
+      font-size: 50px;
+      position: relative;
+      left: 75px;      
+    }
+    button:hover{
+      color: white;
+    }
+    a:hover{
+      color: white;
+    }
+  </style>
+
+</head>
+<body>
+
+
+  <div class="form">
+
+     <i class="fas fa-user-circle"></i>
+  <form>
+
+    <label for="name">User name</label>
+
+    <input type="text" name="#" placeholder="Enter the user name" required="#" onfocus="fn(this)" onblur="br(this)">
+
+    <label for="password">Password</label>
+
+    <input type="password" name="#" placeholder="Password" required="#" onfocus="fn(this)" onblur="br(this)">
+
+    <button type="submit" class="Login">Login</button>
+
+    <button type="submit" class="Signup"><a href="Signup.html">Signup</a></button>
+
+  </form>
+
+</div>
+
+<script type="text/javascript">
+  function fn(element){
+    element.style.boxShadow="6px 7px 7px black";
+  }
+  function br(element){
+    element.style.boxShadow="";
+  }
+</script>
+
+</body>
+</html>

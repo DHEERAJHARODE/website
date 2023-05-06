@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif; 
+    }
+    body{
+      background-image: url(https://petapixel.com/assets/uploads/2018/08/cinematic-step4-800x534.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 2;
+      width: 100%;
+    }
+    label{
+      font-weight: bold;
+      color: white;
+      letter-spacing: 2px;
+    }      
+    div{
+      box-shadow: -3px 4px 19px black;
+      box-sizing: border-box;
+      padding: 20px;
+      backdrop-filter: blur(2px);
+      max-width: 100%;
+      min-width: 200px;
+    }
+    .form{
+      width: 250px;
+      height: 390px;
+      background-color: transparent;
+      border-radius: 7px;
+      margin: 50px auto 0;
+      position: relative;
+      top: 10px;
+    }
+    button{
+      position: relative;
+      top: 40px;
+      left: 70px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 2px;
+      border: 2px solid black;
+      font-weight: bold;
+
+
+      background-color: black;
+      color: grey;
+      opacity: 0.9;
+    }
+    input{
+      border-radius: 4px;
+      border: 2px solid black;
+      letter-spacing: 2px;
+      background-color: black;
+      opacity: 0.7;
+      width: 340px;
+      height:25px;
+      color: white;
+    }
+    i{
+      font-size: 50px;
+      position: relative;
+      left: 70px;      
+    }
+    button:hover{
+      color: white;
+    }
+    </style>
+
+</head>
+<body>
+
+  <div class="form">
+     <i class="fas fa-user-circle"></i>
+  <form>
+    <label for="name">User name</label>
+    <input type="text" name="#" placeholder="Enter the user name" required="#">
+    <label for="E-mail">E-mail</label>
+    <input type="email" name="#" placeholder="Enter the user name" required="#">
+    <label for="password">Password</label>
+    <input type="password" name="#" placeholder="Password" required="#">
+    <label for="password">Confirm</label>
+    <input type="password" name="#" placeholder="Confirm Password" required="#">
+    <button type="submit" class="Signup">Sign up</button>
+  </form>
+</div>
+
+</body>
+</html>
